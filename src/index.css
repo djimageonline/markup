@@ -26,9 +26,8 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  /* place-items: center; */
+
 }
 
 h1 {
@@ -49,8 +48,24 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-shadow: 0px 0px 20px #888888;
+  height: 80px;
+  margin-bottom: 6em;
+  
 }
 
 .logo {
   width: 50px;
+}
+
+.main-container{
+  position: relative;
+}
+
+footer {
+  background-color: rgb(215, 201, 201);
+  /* position: absolute; */
+  text-align: center;
+  bottom: 0;
+  width: 100%;
 }
